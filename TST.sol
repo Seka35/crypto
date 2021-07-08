@@ -47,8 +47,8 @@ contract CryptoTest is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "CryptoTest";
-        symbol = "TST";
+        name = "fadilcoin";
+        symbol = "FDC";
         decimals = 18;
         _totalSupply = 21000000000000000000000000;
 
